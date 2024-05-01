@@ -5,13 +5,17 @@ import ibexImg from "/public/images/Ibeee.jpg";
 function Hero() {
   return (
     <div>
-      <div className="relative  h-screen text-white overflow-hidden">
-        <div className="absolute inset-0 ">
+      <div className="relative  h-screen  text-white overflow-hidden">
+        <div className="absolute  inset-0 ">
           <div
             className="bg-cover bg-center h-full w-full"
             // style={{ backgroundImage: `url('/images/ibeee.jpg')` }}
           >
-            <Image src={ibexImg} alt="image of ibex on a mountain" />
+            <Image
+              src={ibexImg}
+              alt="image of ibex on a mountain"
+              className="object-cover object-center w-full h-full"
+            />
           </div>
           <div className="absolute inset-0 bg-black opacity-60"></div>
         </div>
