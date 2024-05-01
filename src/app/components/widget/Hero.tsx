@@ -1,15 +1,18 @@
 import React from "react";
+import Image from "next/image";
+import ibexImg from "/public/images/Ibeee.jpg";
 
 function Hero() {
   return (
     <div>
-      {" "}
       <div className="relative  h-screen text-white overflow-hidden">
         <div className="absolute inset-0 ">
           <div
             className="bg-cover bg-center h-full w-full"
-            style={{ backgroundImage: `url('/images/ibeee.jpg')` }}
-          ></div>
+            // style={{ backgroundImage: `url('/images/ibeee.jpg')` }}
+          >
+            <Image src={ibexImg} alt="image of ibex on a mountain" />
+          </div>
           <div className="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
