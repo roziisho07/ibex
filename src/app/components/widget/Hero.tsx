@@ -5,7 +5,7 @@ import ibexImg from "/public/images/Ibeee.jpg";
 function Hero() {
   return (
     <div>
-      <div className="relative  h-screen  text-white overflow-hidden">
+      <div className="relative  h-screen  text-white overflow-hidden ">
         <div className="absolute  inset-0 ">
           <div
             className="bg-cover bg-center h-full w-full"

@@ -6,6 +6,7 @@ import Teammem from "./components/widget/teammem";
 import Footer from "./components/widget/footer";
 import Button from "./components/widget/button";
 import Hero from "./components/widget/Hero";
+import CardsHome from "./components/widget/CardsHome";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <Featuretrip/> */}
 
       {/* <Featureanimal /> */}
+    
       <Bloghomeee />
       <Expert />
       <Teammem />
