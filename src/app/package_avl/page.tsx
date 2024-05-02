@@ -23,10 +23,10 @@ export default function package_avl() {
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="absolute inset-0 bg-black opacity-60"></div>
+          <div className="absolute inset-0 bg-black opacity-40"></div>
         </div>
 
-        <div className="relative z-10 flex flex-col justify-center items-start p-8 h-full text-center">
+        <div className="relative  flex flex-col justify-center items-start p-12 ml-14 h-full">
           <h1 className="text-3xl font-bold leading-tight mb-4">
             Explore the Best Places To Get Your Trophy
           </h1>
@@ -42,7 +42,7 @@ export default function package_avl() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center p-8  pb-8md:pt-20 space-y-8  md:space-y-0 md:space-x-4  bg-slate-200  ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center p-8  gap-8  bg-slate-200  ">
         <Packages
           title={"Ghulkin"}
           imgSrc={ibexGhulkin}
@@ -67,6 +67,30 @@ export default function package_avl() {
           }
           level={200}
         />
+        <Packages
+          title={"Hussaini"}
+          imgSrc={ibexHussaini}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={80}
+        />
+        <Packages
+          title={"Hussaini"}
+          imgSrc={ibexHussaini}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={80}
+        />{" "}
+        <Packages
+          title={"Hussaini"}
+          imgSrc={ibexHussaini}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={80}
+        />{" "}
         <Packages
           title={"Hussaini"}
           imgSrc={ibexHussaini}
