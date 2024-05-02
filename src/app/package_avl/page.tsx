@@ -9,8 +9,8 @@ import Image from "next/image";
 import imgGulmit from "/public/images/gulmit.jpg";
 export default function package_avl() {
   return (
-    <div className=" ">
-      <div className="relative  h-[30rem]  text-white overflow-hidden ">
+    <div className=" bg-gray-100 ">
+      <div className="bg-slate-900 relative  h-[30rem]  text-white overflow-hidden ">
         <div className="absolute  inset-0 ">
           <div
             className="bg-cover bg-center h-full w-full"
@@ -41,65 +41,66 @@ export default function package_avl() {
           </a>
         </div>
       </div>
-
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center p-8  gap-8  bg-slate-200  ">
-        <Packages
-          title={"Ghulkin"}
-          imgSrc={ibexGhulkin}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={100}
-        />
-        <Packages
-          title={"Khunjerab"}
-          imgSrc={ibexKhunj}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={10}
-        />
-        <Packages
-          title={"Gulmit"}
-          imgSrc={ibexxGulmit}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={200}
-        />
-        <Packages
-          title={"Hussaini"}
-          imgSrc={ibexHussaini}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={80}
-        />
-        <Packages
-          title={"Hussaini"}
-          imgSrc={ibexHussaini}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={80}
-        />{" "}
-        <Packages
-          title={"Hussaini"}
-          imgSrc={ibexHussaini}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={80}
-        />{" "}
-        <Packages
-          title={"Hussaini"}
-          imgSrc={ibexHussaini}
-          description={
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
-          }
-          level={80}
-        />
-      </div>
+      <section className="flex items-center justify-center p-6 m-6 ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center p-8  gap-8  bg-slate-100 m-8 ">
+          <Packages
+            title={"Ghulkin"}
+            imgSrc={ibexGhulkin}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Hard"}
+          />
+          <Packages
+            title={"Khunjerab"}
+            imgSrc={ibexKhunj}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Easy"}
+          />
+          <Packages
+            title={"Gulmit"}
+            imgSrc={ibexxGulmit}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Medium"}
+          />
+          <Packages
+            title={"Hussaini"}
+            imgSrc={ibexHussaini}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Medium"}
+          />
+          <Packages
+            title={"Hussaini"}
+            imgSrc={ibexHussaini}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Hardest"}
+          />{" "}
+          <Packages
+            title={"Hussaini"}
+            imgSrc={ibexHussaini}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Easy"}
+          />{" "}
+          <Packages
+            title={"Hussaini"}
+            imgSrc={ibexHussaini}
+            description={
+              " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+            }
+            level={"Easy"}
+          />
+        </div>
+      </section>
       {/* <Ghulkin_area/> */}
       {/* <Passu_area/> */}
 

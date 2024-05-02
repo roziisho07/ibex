@@ -13,7 +13,7 @@ export default function BlogHome() {
       <p className="text-center text-sm sm:text-base lg:text-lg mb-8">
         Learn more about the trip and the region where you are going to hunt
       </p>
-      <div className="grid lg:grid-flow-col gap-y-2 sm:grid-flow-row justify-between sm:flex-row  sm:justify-between  drop-shadow-lg  p-8">
+      <div className="grid lg:grid-flow-col gap-4 md:grid-cols-2  sm:grid-flow-row justify-between sm:flex-row  sm:justify-between  drop-shadow-lg p-8 ">
         <CardsHome
           title="Treking"
           image={treks}

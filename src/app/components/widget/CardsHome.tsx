@@ -13,7 +13,7 @@ function CardsHome({
 }) {
   return (
     <div className="">
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  ">
+      <div className="max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 bg-gray-200 ">
         <div className="w-auto h-[240px] overflow-hidden ">
           <Image
             className="rounded-t-lg"

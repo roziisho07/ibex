@@ -10,7 +10,7 @@ export default function Page({
   title: string;
   imgSrc: StaticImageData;
   description: string;
-  level: number;
+  level: string;
 }) {
   return (
     <main className="">
@@ -36,12 +36,11 @@ export default function Page({
           <p className="text-sm flex text-left leading-snug text-gray-700">
             {description}
           </p>
-          <h3 className="pb-2 pt-2">{`Difficulty level:`}</h3>
-          <div className=" h-4">
-            <div
-              className={`h-2 w-[${level}px] absolute bg-green-600 p-1 rounded-r-lg`}
-            ></div>
-          </div>
+          <h3 className="pb-2 pt-2">
+            {`Difficulty level:`}{" "}
+            <span className="rounded-md font-extrabold ">{level}</span>{" "}
+          </h3>
+          <div className=" h-4"></div>
           <div className="justify-start ">
             <button className="mt-4 p-2 rounded-md flex bg-slate-600 hover:bg-slate-800 text-white transition duration-300">
               {" "}
