@@ -1,21 +1,86 @@
-import Packages from "../components/widget/packages"
-import Ghulkin_area from "../components/widget/ghulkin_area"
-import Contactpackage from "../components/widget/contactpackage"
-import Passu_area from "../components/widget/passu_area"
-import Footer from "../components/widget/footer"
-
+import Packages from "../components/widget/packages";
+import Contactpackage from "../components/widget/contactpackage";
+import Footer from "../components/widget/footer";
+import ibexGhulkin from "/public/images/ibex_ghulkin_region.jpg";
+import ibexxGulmit from "/public/images/YUKsh.jpg";
+import ibexKhunj from "/public/images/Ibexphoto.jpg";
+import ibexHussaini from "/public/images/Markhorei.jpg";
+import Image from "next/image";
+import imgGulmit from "/public/images/gulmit.jpg";
 export default function package_avl() {
   return (
-    <div>
-      <div
-        className="bg-cover bg-center h-[35rem] w-full"
-        style={{ backgroundImage: `url('/images/gulmit.jpg')` }}
-      ></div>
-      <Packages/>
-      <Ghulkin_area/>
-      <Passu_area/>
-      <Contactpackage/>
-      <Footer/>
+    <div className=" ">
+      <div className="relative  h-[30rem]  text-white overflow-hidden ">
+        <div className="absolute  inset-0 ">
+          <div
+            className="bg-cover bg-center h-full w-full"
+            // style={{ backgroundImage: `url('/images/ibeee.jpg')` }}
+          >
+            <Image
+              src={imgGulmit}
+              loading="lazy"
+              alt="image of ibex on a mountain"
+              className="object-cover object-center w-full h-full"
+            />
+          </div>
+          <div className="absolute inset-0 bg-black opacity-60"></div>
+        </div>
+
+        <div className="relative z-10 flex flex-col justify-center items-start p-8 h-full text-center">
+          <h1 className="text-3xl font-bold leading-tight mb-4">
+            Explore the Best Places To Get Your Trophy
+          </h1>
+          <p className="text-lg text-gray-300 mb-8">
+            Start with the difficulty level and your trophy choice
+          </p>
+          <a
+            href="#"
+            className="bg-yellow-500 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-md text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+          >
+            Contact us
+          </a>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center p-8  pb-8md:pt-20 space-y-8  md:space-y-0 md:space-x-4  bg-slate-200  ">
+        <Packages
+          title={"Ghulkin"}
+          imgSrc={ibexGhulkin}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={100}
+        />
+        <Packages
+          title={"Khunjerab"}
+          imgSrc={ibexKhunj}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={10}
+        />
+        <Packages
+          title={"Gulmit"}
+          imgSrc={ibexxGulmit}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={200}
+        />
+        <Packages
+          title={"Hussaini"}
+          imgSrc={ibexHussaini}
+          description={
+            " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eligendi laboriosam recusandae consectetur consequatur.!"
+          }
+          level={80}
+        />
+      </div>
+      {/* <Ghulkin_area/> */}
+      {/* <Passu_area/> */}
+
+      <Contactpackage />
+      <Footer />
     </div>
   );
 }
