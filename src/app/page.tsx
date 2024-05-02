@@ -17,7 +17,7 @@ export default function Home() {
       {/* <Featuretrip/> */}
 
       {/* <Featureanimal /> */}
-    
+
       <Bloghomeee />
       <Expert />
       <Teammem />
