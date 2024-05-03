@@ -7,7 +7,7 @@ import Footer from "../components/widget/footer"
 export default function services() {
   return (
     <div>
-      <Image src={img} alt="hunting" className="w-full h-70"></Image>
+      {/* <Image src={img} alt="hunting" className="w-full h-70"></Image> */}
       <Services/>
       <Footer/>
     </div>

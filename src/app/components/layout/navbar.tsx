@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex items-center  top-0  w-full shadow-lg h-20  z-[100] bg-gray-900 px-20 ">
+    <header className="flex items-center  top-0  w-full shadow-lg h-20   bg-gray-900 px-20  fixed z-50">
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16 py-10">
         <Link href={"/"}>
           <Image

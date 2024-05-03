@@ -7,10 +7,7 @@ function Hero() {
     <div>
       <div className="relative  h-screen  text-white overflow-hidden ">
         <div className="absolute  inset-0 ">
-          <div
-            className="bg-cover bg-center h-full w-full"
-            // style={{ backgroundImage: `url('/images/ibeee.jpg')` }}
-          >
+          <div className="bg-cover bg-center h-full w-full">
             <Image
               src={ibexImg}
               alt="image of ibex on a mountain"

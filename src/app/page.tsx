@@ -7,6 +7,7 @@ import Footer from "./components/widget/footer";
 import Button from "./components/widget/button";
 import Hero from "./components/widget/Hero";
 import CardsHome from "./components/widget/CardsHome";
+import Header from "./components/layout/navbar";
 
 export default function Home() {
   return (

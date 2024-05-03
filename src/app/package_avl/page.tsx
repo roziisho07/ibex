@@ -42,7 +42,7 @@ export default function package_avl() {
         </div>
       </div>
       <section className="flex items-center justify-center p-6 m-6 ">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center p-8  gap-8  bg-slate-100 m-8 ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center lg:p-8  gap-8  bg-slate-100 lg:m-8 ">
           <Packages
             title={"Ghulkin"}
             imgSrc={ibexGhulkin}
