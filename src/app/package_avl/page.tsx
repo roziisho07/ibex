@@ -26,7 +26,7 @@ export default function package_avl() {
           <div className="absolute inset-0 bg-black opacity-40"></div>
         </div>
 
-        <div className="relative  flex flex-col justify-center items-start p-12 ml-14 h-full">
+        <div className="relative  flex flex-col justify-center items-start p-12 lg:ml-14 h-full">
           <h1 className="text-3xl font-bold leading-tight mb-4">
             Explore the Best Places To Get Your Trophy
           </h1>
